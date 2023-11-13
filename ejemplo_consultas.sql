@@ -92,8 +92,8 @@ CROSS JOIN
 -- si hay problemas de carga por encoding tratar de cargar el archivo con el siguiente comando
 -- \copy countries from '/Users/fabianpino/Desktop/consulta_en_multiples_tablas/countries.csv' delimiter ',' csv header encoding 'UTF8';
 
--- cambiar encoding de la base de datos a UTF8
--- ALTER DATABASE paises SET encoding = 'UTF8';
+-- y setear el encoding de la base de datos con el siguiente comando
+-- SET CLIENT_ENCODING TO 'UTF8'; 
 
 
 CREATE DATABASE paises;
