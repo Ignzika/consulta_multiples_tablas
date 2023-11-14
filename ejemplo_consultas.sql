@@ -17,7 +17,7 @@ INSERT INTO empleados (nombre, salario, departamento_id) VALUES
     ('Carlos García', 75000.00, 1),
     ('María López', 80000.00, 3),
     ('Pedro Martínez', 55000.00, 2),
-    ('Paz Arancibia', 60000.00);
+    ('Paz Arancibia', 60000.00, 2);
 
 -- Crear la tabla de departamentos
 CREATE TABLE departamentos (
